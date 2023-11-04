@@ -1,10 +1,34 @@
-var name = "Jack";
+const name = 'Jack';
 console.log(name);
-name = 'Jane';
-console.log(name);
-var color;
-console.log(color);
-color = 'red';
+
+const color = 'red';
 console.log(color);
 
-var mainColorl1 = 'green';
+const user = {
+    name: 'Jack',
+    gender: 'male',
+    age: 24
+}
+console.log(user);
+
+user.name = 'Jane';
+
+console.log(user);
+
+const colors = ['red', 'orange', 'green'];
+console.log(colors);
+
+colors.push('blue');
+console.log(colors);
+
+
+
+
+
+
+
+
+
+
+
+
