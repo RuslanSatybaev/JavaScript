@@ -1,16 +1,11 @@
 let result;
 
-result = Math.round(3.85);
+result = 'I\'m 34 years old';
+const colors = 'red, blue, orange, green';
 
-result = Math.ceil(4.3);
-result = Math.floor(4.7);
-result = Math.sqrt(9);
-result = Math.abs(-7);
-result = Math.pow(2, 3);
-result = Math.min(3, 45, 58, -96);
-result = Math.max(5, 45, 48, 9);
+result = result.split(' ');
 
-result = Math.floor(Math.random() * 100) + 1;
+result = colors.replace('blue', 'yellow');
 
 console.log(result);
 
