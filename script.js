@@ -1,5 +1,8 @@
-let favoriteColor;
+const x = '7';
+const y = '7';
+console.log(x == y);
 
-favoriteColor = prompt('What is your favorite color?');
+console.log(true === 1);
+console.log(false == 0);
 
-console.log('Your favorite color is ' + favoriteColor);
+
