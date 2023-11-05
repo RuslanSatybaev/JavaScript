@@ -1,15 +1,13 @@
-const color = 'grween';
+'use strict'
 
-switch (color) {
-    case 'green':
-        console.log('Go');
-        break;
-    case 'yellow':
-        console.log('Get ready');
-        break;
-    case 'red':
-        console.log('Stop!');
-        break;
-    default:
-        console.log('Incorrect color');
+let hasCertificate = false;
+const passExam = true;
+
+if (passExam) {
+    //hasCetificate = true;
 }
+if (hasCertificate){
+    console.log('Wow1')
+}
+const interface = 'Video';
+console.log(interface);
