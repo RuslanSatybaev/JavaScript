@@ -1,8 +1,5 @@
-const x = '7';
-const y = '7';
-console.log(x == y);
-
-console.log(true === 1);
-console.log(false == 0);
-
+let x, y;
+console.log(x, y);
+x = y = 10 + 5 - 3 * 4;
+console.log(x, y);
 
