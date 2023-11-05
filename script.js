@@ -1,11 +1,10 @@
-const weight = prompt('Enter your weight in kg');
-const height = prompt('Enter your height in m');
-
-const bodyMassIndex = weight / Math.pow(height, 2);
-
-const areYouOverWeight = bodyMassIndex >= 25;
-
-console.log(bodyMassIndex);
-console.log(areYouOverWeight);
-
-alert('Are you overweight? ' + areYouOverWeight);
+const color = 'yellow';
+if (color === 'green') {
+    console.log('Go!');
+} else if (color === 'yellow') {
+    console.log('Get ready');
+} else if (color === 'red') {
+    console.log('Stop!');
+} else {
+    console.log('Incorrect color!');
+}
