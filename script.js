@@ -1,26 +1,26 @@
-const name = 'Jack';
-console.log(name);
+let x = 'something';
+console.log(x);
 
-const color = 'red';
-console.log(color);
+x = 3;
+console.log(x);
 
-const user = {
-    name: 'Jack',
-    gender: 'male',
-    age: 24
-}
-console.log(user);
+const someText = 'Some text';
+console.log(typeof someText);
 
-user.name = 'Jane';
+const someNumber = 11;
+console.log(typeof someNumber);
 
-console.log(user);
+const someBoolean = true;
+console.log(typeof someBoolean);
 
-const colors = ['red', 'orange', 'green'];
-console.log(colors);
+const someNull = null;
+console.log(typeof someNull);
 
-colors.push('blue');
-console.log(colors);
+const someSymbol = Symbol();
+console.log(typeof someSymbol);
 
+const someFunction = new Function();
+console.log(typeof someFunction);
 
 
 
