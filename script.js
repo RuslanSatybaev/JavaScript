@@ -1,11 +1,16 @@
-let x = 113.56356;
-console.log(typeof x);
-//x = String(new Date());
-console.log(x.toPrecision(5));
-console.log(typeof String(x));
+let result;
 
-y = parseInt('123.23')
-console.log(y);
+result = Math.round(3.85);
 
-y = parseFloat('123.25');
-console.log(y);
+result = Math.ceil(4.3);
+result = Math.floor(4.7);
+result = Math.sqrt(9);
+result = Math.abs(-7);
+result = Math.pow(2, 3);
+result = Math.min(3, 45, 58, -96);
+result = Math.max(5, 45, 48, 9);
+
+result = Math.floor(Math.random() * 100) + 1;
+
+console.log(result);
+
