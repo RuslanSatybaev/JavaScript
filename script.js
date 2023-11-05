@@ -1,13 +1,5 @@
-function printText() {
-    console.log('Hello to everyone!');
-}
+const getAge = function (birthYear, yearNow) {
+    return yearNow - birthYear;
+};
 
-printText();
-printText();
-
-function colorizer(item, color) {
-    return `The ${item} is ${color}`;
-}
-
-const messageFromColorizer = colorizer('desc', 'red');
-console.log(`We have the following message: ${messageFromColorizer}`);
+console.log(getAge(1988, 2023));
