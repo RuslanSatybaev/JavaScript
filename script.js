@@ -1,10 +1,15 @@
-const color = 'yellow';
-if (color === 'green') {
-    console.log('Go!');
-} else if (color === 'yellow') {
-    console.log('Get ready');
-} else if (color === 'red') {
-    console.log('Stop!');
-} else {
-    console.log('Incorrect color!');
+const color = 'grween';
+
+switch (color) {
+    case 'green':
+        console.log('Go');
+        break;
+    case 'yellow':
+        console.log('Get ready');
+        break;
+    case 'red':
+        console.log('Stop!');
+        break;
+    default:
+        console.log('Incorrect color');
 }
