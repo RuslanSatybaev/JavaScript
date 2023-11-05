@@ -1,13 +1,13 @@
-'use strict'
-
-let hasCertificate = false;
-const passExam = true;
-
-if (passExam) {
-    //hasCetificate = true;
+function printText() {
+    console.log('Hello to everyone!');
 }
-if (hasCertificate){
-    console.log('Wow1')
+
+printText();
+printText();
+
+function colorizer(item, color) {
+    return `The ${item} is ${color}`;
 }
-const interface = 'Video';
-console.log(interface);
+
+const messageFromColorizer = colorizer('desc', 'red');
+console.log(`We have the following message: ${messageFromColorizer}`);
