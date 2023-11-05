@@ -1,34 +1,11 @@
-let x = 'something';
-console.log(x);
+let x = 113.56356;
+console.log(typeof x);
+//x = String(new Date());
+console.log(x.toPrecision(5));
+console.log(typeof String(x));
 
-x = 3;
-console.log(x);
+y = parseInt('123.23')
+console.log(y);
 
-const someText = 'Some text';
-console.log(typeof someText);
-
-const someNumber = 11;
-console.log(typeof someNumber);
-
-const someBoolean = true;
-console.log(typeof someBoolean);
-
-const someNull = null;
-console.log(typeof someNull);
-
-const someSymbol = Symbol();
-console.log(typeof someSymbol);
-
-const someFunction = new Function();
-console.log(typeof someFunction);
-
-
-
-
-
-
-
-
-
-
-
+y = parseFloat('123.25');
+console.log(y);
