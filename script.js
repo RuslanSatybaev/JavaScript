@@ -2,7 +2,7 @@ const rainbowColors = [
     'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'
 ];
 
-console.log(rainbowColors);
+rainbowColors.pop();
+rainbowColors.push(7);
 
-const stringNumbers = new Array('one', 5, new Date());
-console.log(stringNumbers);
+console.log(rainbowColors);
