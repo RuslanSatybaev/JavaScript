@@ -1,6 +1,2 @@
-for (let exercise = 1; exercise <= 3; exercise++) {
-    console.log(`Exercise ${exercise}`);
-    for (let rep = 1; rep <= 5; rep++) {
-        console.log(`Rep ${rep}`)
-    }
-}
+let diceNumber = Math.trunc(Math.random() * 6) + 1
+console.log(diceNumber);
