@@ -1,22 +1,27 @@
-ruslanObject = {
-    name: "Ruslan",
-    lastName: "Satybaev",
-    birthYear: 1988,
-    job: "programming",
-    familyMembers: [
-        'Zabida', 'Alfia'
-    ],
-    hasDriverLicense: false,
-    calcAge: function () {
-        this.age = 2023 - this.birthYear
+const jack = {
+    firsName: "Jack",
+    lastName: "White",
+    weight: 78,
+    height: 1.70,
+    calcBmi: function () {
+        this.bmi = this.weight / this.height ** 2;
+        return this.bmi;
     }
 }
 
-ruslanObject.calcAge();
-console.log(ruslanObject.age);
+const mike = {
+    firsName: "Jack",
+    lastName: "White",
+    weight: 91,
+    height: 1.93,
+    calcBmi: function () {
+        this.bmi = this.weight / this.height ** 2;
+        return this.bmi;
+    }
+}
 
-console.log(`${ruslanObject.name} is a ${
-    ruslanObject.age}-year old ${
-    ruslanObject.job} and he has ${
-    ruslanObject.hasDriverLicense ? 'a' : 'not'} driver license
-`)
+console.log(jack.calcBmi());
+console.log(jack.bmi);
+
+console.log(mike.calcBmi());
+console.log(mike.bmi);
