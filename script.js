@@ -1,13 +1,16 @@
-const calculateTips = bill => bill < 20 ? bill * 0.2 : bill * 0.15;
+myData = ['Ruslan', 'Satybaev', 1974,
+    'programming', ['Zabida', 'Alfia']];
 
-const bills = [11, 20, 47];
+console.log(myData[4]);
 
-const tips = [calculateTips(bills[0]),
-    calculateTips(bills[1]), calculateTips(bills[2])];
+ruslanObject = {
+    name: "Ruslan",
+    lastName: "Ruslan",
+    birthYear: 50,
+    job: "programming",
+    familyMembers: [
+        'Zabida', 'Alfia'
+    ]
+}
 
-const totalBills = [bills[0] + tips[0],
-    bills[1] + tips[1], bills[2] + tips[2]];
-
-console.log(bills);
-console.log(tips);
-console.log(totalBills);
+console.log(ruslanObject);
