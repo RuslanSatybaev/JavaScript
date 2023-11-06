@@ -1,3 +1,8 @@
-const getAverage = (x, y, z) => (x + y + z) / 3;
+const rainbowColors = [
+    'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'
+];
 
-console.log(getAverage(5, 9, 10));
+console.log(rainbowColors);
+
+const stringNumbers = new Array('one', 5, new Date());
+console.log(stringNumbers);
