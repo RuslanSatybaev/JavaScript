@@ -1,8 +1,13 @@
-const rainbowColors = [
-    'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'
-];
+const calculateTips = bill => bill < 20 ? bill * 0.2 : bill * 0.15;
 
-rainbowColors.pop();
-rainbowColors.push(7);
+const bills = [11, 20, 47];
 
-console.log(rainbowColors);
+const tips = [calculateTips(bills[0]),
+    calculateTips(bills[1]), calculateTips(bills[2])];
+
+const totalBills = [bills[0] + tips[0],
+    bills[1] + tips[1], bills[2] + tips[2]];
+
+console.log(bills);
+console.log(tips);
+console.log(totalBills);
