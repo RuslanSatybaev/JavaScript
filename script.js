@@ -5,27 +5,18 @@ ruslanObject = {
     job: "programming",
     familyMembers: [
         'Zabida', 'Alfia'
-    ]
+    ],
+    hasDriverLicense: false,
+    calcAge: function () {
+        this.age = 2023 - this.birthYear
+    }
 }
 
-console.log(ruslanObject.name);
+ruslanObject.calcAge();
+console.log(ruslanObject.age);
 
-console.log(ruslanObject['lastName']);
-
-const userInput = prompt('What do you want know about Ruslan?' +
-    'Choose between name, lastname, birthYear, familyMembers');
-
-if (ruslanObject[userInput]) {
-    console.log(ruslanObject[userInput])
-} else {
-    alert('Wrong input');
-}
-
-ruslanObject.location = 'Russia';
-ruslanObject['telegram'] = '@ruslansatybaev';
-
-console.log(ruslanObject);
-
-console.log(`${ruslanObject.name} has ${ruslanObject
-    .familyMembers.length} family members and the first one is ${ruslanObject
-    .familyMembers[0]}`)
+console.log(`${ruslanObject.name} is a ${
+    ruslanObject.age}-year old ${
+    ruslanObject.job} and he has ${
+    ruslanObject.hasDriverLicense ? 'a' : 'not'} driver license
+`)
