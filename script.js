@@ -1,11 +1,14 @@
 'use strict';
 
-console.log(document.querySelector('.guess-message').textContent);
+document.querySelector('.check').addEventListener('click', function () {
+   const guessingNumber = Number(document.querySelector('.number-input').value);
+    console.log(typeof guessingNumber);
 
-document.querySelector('.guess-message').textContent = 'Правильно';
+    if (!guessingNumber) {
+        document.querySelector('.guess-message').textContent = 'Введите число';
+    }
+});
 
-document.querySelector('.question').textContent = 7;
 
-document.querySelector('.score').textContent = 11;
 
-document.querySelector('.number-input').value = 13;
+
