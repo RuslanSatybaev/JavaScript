@@ -1,0 +1,22 @@
+body {
+    background-color: #a1d3d3;
+    font-family: "GOST type B", "Arial", sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.first {
+    color: blue;
+}
+
+#name {
+    background-color: bisque;
+    border: 3px solid #444;
+}
+
+#paragraph2 {
+    background-color: #54474d;
+}
